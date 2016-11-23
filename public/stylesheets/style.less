@@ -1,0 +1,33 @@
+@lighterGrey: #eeeeee;
+@lightGrey: #cccccc;
+@lightBlue: #00B7FF;
+
+@defaultBackground:@lighterGrey;
+@h1Color:@lightBlue;
+
+body {
+    background-color: @defaultBackground;
+}
+.Block{
+    display: block;
+}
+h1 {
+    color: @h1Color;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+}
+.orders{
+    list-style-type: none;
+    padding: 0;
+    li{
+        background-color: @lightGrey;
+        padding: 15px;
+        margin: 0 0 5px 0;
+    }
+}
+.input{
+    .Block;
+    margin: 5px 0;
+}

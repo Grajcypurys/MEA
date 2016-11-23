@@ -1,0 +1,7 @@
+<h2>Coffee Orders</h2>
+<ul id="orders" class="orders"></ul>
+
+<h3>Add a Coffee Order</h3>
+<label>Name: <input type="text" id="name" class="input"></label>
+<label>Drink: <input type="text" id="drink" class="input"></label>
+<button id="add-order">Add!</button>

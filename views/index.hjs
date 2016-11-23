@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> head }}
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>{{ title }}</h1>
+        {{> orders }}
+        
+    </div>
+    {{> scripts }}
+    
+  </body>
+</html>
